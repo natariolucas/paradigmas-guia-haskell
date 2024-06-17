@@ -6,8 +6,6 @@ square x = x * x
 areaCirculo :: Float -> Float
 areaCirculo r = pi * square r
 
---currying
-
 main = print(areaCirculo 2)
 
 {- 
